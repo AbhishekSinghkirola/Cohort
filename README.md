@@ -8,6 +8,6 @@
 
 ---
 
-### 2. [Netflix Website Section]
+### 2. [Netflix Website Section](https://abhisheksinghkirola.github.io/Cohort/css-assignments/netflix-section.html)
 
 ![netflix webiste](https://github.com/user-attachments/assets/facfb99e-b835-428b-9d3c-fb3bde1b3807)
