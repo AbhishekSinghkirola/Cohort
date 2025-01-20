@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaicode | Chapter 7</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        padding: 30px;
+        max-width: 500px;
+        width: 100%;
+        background-color: peachpuff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      form > input {
+        padding: 10px;
+      }
+
+      form > label {
+        margin-top: 10px;
+      }
+
+      button {
+        display: inline-block;
+        width: max-content;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-inline: auto;
+        padding: 14px 24px;
+        background-color: burlywood;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <label for="Phone">Phone Number</label>
+      <input type="number" name="phone" id="Phone" />
+
+      <label for="comments">Comments</label>
+      <textarea name="comments" id="comments"></textarea>
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        pattern=".{8,}"
+        required
+      />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
